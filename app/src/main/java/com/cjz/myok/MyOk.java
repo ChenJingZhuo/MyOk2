@@ -1,5 +1,7 @@
 package com.cjz.myok;
 
+import android.util.Log;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -39,6 +41,7 @@ public abstract class MyOk {
                         ok(jsonObject);
                     }else {
                         ok(null);
+                        Log.d("error", jsonObject.toString());
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
