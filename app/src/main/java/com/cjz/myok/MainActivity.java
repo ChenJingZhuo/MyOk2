@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void ok(JSONObject jsonObject) {
                     if (jsonObject!=null){
-                        Log.d("6666", jsonObject.toString());
+                        Log.d("7777", jsonObject.toString());
                     }
                 }
             };
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void ok(JSONObject jsonObject) {
                 if (jsonObject!=null){
-                    Log.d("5555", jsonObject.toString());
+                    Log.d("8888", jsonObject.toString());
                     //切换UI线程执行UI操作
                     runOnUiThread(new Runnable() {
                         @Override
